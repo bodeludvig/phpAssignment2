@@ -1,0 +1,151 @@
+/*----------------------- GLOBAL -----------------------*/
+.content {
+    display: grid;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+
+/*----------------------- HEADER.PHP -----------------------*/
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navElement {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+}
+
+.navElement:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.happydog {
+    width: 70vw;
+    height: 15vh;
+    object-fit: cover;
+}
+.header {
+    position: relative;
+    display: inline-block;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.header .headerH1 {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+    width: 60%;
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+/*----------------------- INDEX.PHP -----------------------*/
+.contentMain {
+    display: grid;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.indexH1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.indexP a {
+    text-decoration: none;
+    color: blue;
+}
+
+.indexP a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------- SIGN IN.PHP -----------------------*/
+.signInForm {
+    display: grid;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.signInForm input {
+    margin-bottom: 1rem;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: blue;
+    font-size: 1rem;
+}
+
+.signInForm input:focus {
+    outline: none;
+}
+
+.signInForm button {
+    border: hidden;
+    height: 2rem;
+}
+
+.signInForm button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.signInP {
+    color: red;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/*----------------------- LIST.PHP -----------------------*/
+.contentListTable {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contentListTable th {
+    padding-left: 0.5rem;
+}
+
+.contentListTable td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+.contentListTable tr:nth-child(even) {
+    background-color: #e3e3e3;
+  }
+
+/*----------------------- FOOTER.PHP -----------------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px #e3e3e3;
+    height: 2rem;
+}
